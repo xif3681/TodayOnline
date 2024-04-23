@@ -1,0 +1,78 @@
+@import './theme.color.scss';
+
+.colivingHead {
+  min-height: 30px;
+  background-color: $headerBgColor;
+  padding: 0;
+}
+
+.colivingFooter {
+  min-height: 300px;
+  background-color: $foodererBgColor;
+  color: $themeColor;
+  a {
+    color: bisque;
+  }
+}
+
+.bcBrandLogo {
+  font: 0/0 a;
+  color: transparent;
+  text-shadow: none;
+  background-color: transparent;
+  border: 0;
+  display: block;
+  width: 0;
+  height: 30px;
+  padding: 0 0 5px 102px;
+  margin: 0;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(/bc-logo-white.svg),none;
+}
+
+.logoColor {
+  color: $logoTextCoor;
+}
+
+.navActive {
+  background-color: $themeBgColor !important;
+
+}
+.linkActive {
+  color: $navActive !important;
+}
+
+.colivingToolbar{
+  display: block;
+
+  // flex-direction: column;
+}
+
+
+.colivingFixNav {
+  justify-content: flex-end;
+}
+
+.colivingNav {
+
+  justify-content: start;
+  padding-left: 24px;
+}
+
+.colivingNav, .colivingFixNav{
+  display: flex;
+  button:hover {
+    background-color: $themeBgColor;
+    color: $navHover;
+  }
+
+  button {
+    height: 45px;
+    background: $themeBgColor;
+    color: $themeTextColor;
+    margin: 0 1px;
+    border-radius: 0;
+
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "region": "ap-southeast-1",
+  "apiVersion": "2012-10-17",
+
+  "accessKeyId": "",
+  "secretAccessKey": "",
+
+  "Bucket": "colivingroom",
+  "appuseravatar": "appuseravatar",
+  "BlogBucket": "colivingblog",
+
+  "ACL": "public-read",
+  "Access-Control-Allow-Origin": "*",
+  "keyStart": "IMAGES",
+  "domain": "amazonaws.com",
+  "serviceName": "s3"
+}
